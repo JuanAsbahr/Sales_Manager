@@ -1,8 +1,10 @@
-namespace Sales_Manager.Models
+using System;
+
+namespace SalesWebMvc.Models
 {
     public class ErrorViewModel
     {
-        public string? RequestId { get; set; }
+        public string RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
